@@ -1,0 +1,20 @@
+{
+    "name": "xy/timi-cdn-hy",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xy",
+            "email": "15810265860@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.3"
+    },
+    "autoload":{
+        "psr-4":{
+           "timi-cdn-hy\\Library\\":"src/timi-cdn-hy/Library"
+         }
+    }
+}
